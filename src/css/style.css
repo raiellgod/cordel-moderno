@@ -1,8 +1,72 @@
-header{
-    background-color: var(--cor1);
+body{
+    min-height: 100vh;
+    background-color: var(--cor2);
 }
 
-header > h1 {
+header{
+    background-color: var(--cor1);
+    height: 150px;
+    text-align: center;
+
+}
+
+header h1 {
     font-size: 3em;
     color: var(--cor0);
+    padding-top: 30px;
+    font-variant: small-caps;
+}
+
+header  p {
+    color: var(--cor0); 
+    font-size: 1.5em;
+    padding-bottom: 30px;
+}
+
+header a {
+    color: var(--cor0);  
+}
+
+header > p > a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+section {
+    padding: 10vh 0px;
+    line-height: 2em;    
+    padding: 0px 30px;
+}
+
+section.normal {
+    background-color: var(--cor0);
+    color: var(--cor1);
+}
+
+section.imagem {
+    background-color: var(--cor1);
+    color: var(--cor0);
+}
+
+section.imagem  > p {
+    background-color: var(--cor4);
+    width: 400px ;
+}
+
+footer{
+    background-color: var(--cor1);
+    color: var(--cor0);  
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px 50px;
+}
+
+footer a {
+    color: var(--cor0);  
+}
+ footer > p > a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    transform: scale(1.5);
 }
